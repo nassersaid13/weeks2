@@ -1,5 +1,4 @@
 import time
-
 def countdown(num_of_secs):
     while num_of_secs:
         m, s = divmod(num_of_secs, 60)
@@ -8,6 +7,7 @@ def countdown(num_of_secs):
         time.sleep(1)
         num_of_secs -= 1
         
+
     print('Countdown finished.')
 
 inp = input('Input number of seconds to countdown: ')

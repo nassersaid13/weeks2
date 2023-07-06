@@ -1,5 +1,4 @@
 # funciones
-
 def sumar(x,y,w):
     return x + y + w
 
